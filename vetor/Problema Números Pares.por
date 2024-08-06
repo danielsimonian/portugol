@@ -1,8 +1,6 @@
 programa {
   funcao inicio() {
     inteiro n, soma, pares
-
-    soma = 0
     pares = 0
 
     escreva("Quantos números vocês vai digitar? ")
