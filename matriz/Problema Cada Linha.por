@@ -21,11 +21,11 @@ programa {
       para (inteiro linha = 0; linha < n; linha++){
         para (inteiro coluna = 0; coluna < n; coluna++){
           se (matriz[linha][coluna] > numeroMaior){
-            numeroMaior = matriz[linha][coluna]
-            escreva(numeroMaior, "\n")
-            
+          numeroMaior = matriz[linha][coluna]
           }
         }
+        escreva(numeroMaior, "\n")
+        numeroMaior = 0
       }
 
 

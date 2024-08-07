@@ -8,7 +8,7 @@ programa {
     escreva("Qual a quantidade de colunas? ")
     leia(c)
 
-    se (l e c <=10){
+    se (l ou c <=10){
       inteiro matriz[l][c]
 
       para (inteiro linha = 0; linha < l; linha++){
